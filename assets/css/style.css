@@ -1,72 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&family=Unbounded:wght@300;400;700&family=Zeyada&display=swap');
+
 * {
     box-sizing: border-box;
-    background-color: black;
 }
-.navbar-brand{
-    color:rgb(161, 241, 241);
-}
-.navbar-brand:hover{
-    color:#ff3c00;
-    text-shadow: 5px 5px 5px whitesmoke;
-}
+
 body {
-    margin-top: 20px;
-    padding: 0;
-    font-family:'Courier New', Courier, monospace;
-    color:#ff3c00;
-    line-height: 1.5;
-    background-color: black;
-}
-/* .container-fluid{
-    width:80%;
-
+    margin: 1rem;
 }
 
-} */
-
-/* searchResults is the id containing all the bootstrap cards- all the content that will return from the api search */
-/* #searchResults{ 
-    padding:10px;
-} */
-/* resultsColumn was the row that i turned into a column*/
-/* .resultsColumn {
-    display: flex;
-    flex-direction: row;
-    margin: top 60px;
-    margin-bottom: 60px;
-} */
-.container-fluid{
-    margin-top: 20px;
+.navbar {
+    justify-content: space-between;
 }
-.card img{
-    inline-size: 100%;
-    border-radius: 2px;
+.navbar-brand {
+    font-family: 'Unbounded', sans-serif;
 }
 
-.card {
-    border-color: rgb(161, 241, 241);
-    width: 25rem;
-    margin: 5rem;
-    border-width: 0.1rem;
-}
-.card p{
-    font-family: 'Monaco', Monospace;
-}
-.card h3{
-    font-family: 'Monaco', Monospace;
-    font-style: italic;
-    font-size: small;
-    text-align: right;
-}
-.card h5 {
-    font-weight:bold;
+.tag-line {
+    font-family: 'Zeyada', serif;
 }
 
-.card iframe{
-    inline-size: 100%;
-    border-color:#ff3c00;
-    border-width: 1rem;
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.button {
+    font-family: 'Unbounded', sans-serif;
+}
+
+#userInput {
+    font-family: 'Zeyada', serif;
+    font-size: 16px;
+}
+
+#search-form {
+    width: 26rem;
 }
 
 .container {
@@ -77,110 +44,48 @@ body {
     overflow-x: scroll;
 }
 
+.container-fluid{
+    margin-top: 20px;
+}
+
+.card img{
+    inline-size: 100%;
+    border-radius: 2px;
+}
+
+.card {
+    width: 25rem;
+    margin: 5rem;
+    border-width: 0.1rem;
+}
+
+.card iframe{
+    inline-size: 100%;
+}
+
 /* custom scroll bar */
 
 #searchResults::-webkit-scrollbar {
 	height: 4px;
-	background-color: #ff3c00;
+	background-color: #000;
 }
 
-#searchResults::-webkit-scrollbar-thumb {
-	background-color: rgb(161, 241, 241);
-}
-
-h1, h2 {
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.4em;
-}
-
-h2 {
-    text-align: center;
-}
-
-nav {
-    font-weight: bold;
-    font-size: 1.4em;
-    margin: 40px;
-}
-/* .navbar-brand img{
-    max-height: 70px;
-} */
-
-/* jumbotron elements */
-/* .jumbotron { 
-    padding-bottom: 300px;
-
-    justify-content:center;
-}
-.jumbotron .img{
-    width: 100%;
-}
-
-
-} */
-
-.jumbotron p{
-    text-align: center;
-    font-family: 'Monaco', Monospace;
-    color:rgb(161, 241, 241);
-}
-
-/*contains search bar elements */
-.jumbotron .input-group{
-    background-color:#ff3c00;
-}
-.input-group:hover{
-    text-shadow: 5px 5px 5px whitesmoke;
-}
-#search-addon{
+#search-addon {
     background-color:transparent;
 }
 
-.fas{
-    background-color:transparent;
-}
-
-/* .fas{
-    background-color:rgba(187, 163, 210, 0.683); ;
-} */
-
-
-.lowContainer {
-    margin-bottom: 600px;
-    padding:60px;
-    width:100%;
-}
-.lowContainer .trekContinues{
-    padding:20px;
-}
-.lead{
-    font-family: 'Monaco', Monospace;
-}
-.trekContinues p{
-    text-align: center;
-}
-.beyond{
-    text-align: center;
-}
-
-    /* float: none; 
-    margin-bottom: 10px;
-    width: 18rem;
-} */
-
-/* button:hover {
-    transition: 0.4s ease-in-out;
-    box-shadow: 0 0 20px rgb(16, 64, 116);
-    cursor: pointer; 
-} */
-
-#search-form {
-    width: 60%;
+.fas {
+    background-color: transparent;
 }
 
 #map {
     width: 100%;
+}
+
+/* Copyright section */
+
+#copyright {
+    font-family: 'Zeyada', sans-serif;
 }
 
 @media only screen and (max-width: 460px) {
