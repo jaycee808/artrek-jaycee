@@ -5,13 +5,11 @@
 }
 
 body {
-    margin: 1rem;
     background-color: #000;
 }
 
 .navbar {
-    justify-content: space-between;
-    margin-left: 1.5rem;
+    justify-content: space-evenly;
 }
 
 #logo {
@@ -27,8 +25,8 @@ h1 {
 
 .tag-line {
     font-family: 'Zeyada', serif;
-    margin-left: 1.5rem;
     color: #aaa;
+    text-align: center;
 }
 
 p {
@@ -64,12 +62,15 @@ p {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+
+    /* flex-basis: fit-content;
+    flex-direction: column; */
+    /* flex-direction: row;
     grid-auto-columns: 36%;
-    padding: 0.5rem;
-    overflow-x: scroll;
-    margin: 0;
+    overflow-x: scroll; */
 }
 
 .card img{

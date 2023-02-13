@@ -77,7 +77,7 @@ function displayCards(itemData) {
             <p class="card-text">Year: ${item.year}</p>
             <p class="card-text">Country of Origin: ${item.country}</p>
             <p class="card-text">${item.description}</p>
-            <h3>go looking</h3>
+            <h3>Map</h3>
             <div class="embed-responsive embed-responsive-16by9">
             <iframe id="map" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyADX0Zd0LOToDJv9h85TLZXc8GUliRPzTU&q=${item.provider}">
             </div>
