@@ -18,10 +18,7 @@ body {
     font-family: 'Unbounded', sans-serif;
     font-size: 5em;
     font-weight: 800;
-    background-image: url("../images/pexels-milo-textures-2768398.jpg");
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #eee;
 }
 
 h1 {
