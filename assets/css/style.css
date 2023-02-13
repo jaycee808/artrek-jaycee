@@ -6,10 +6,7 @@
 
 body {
     margin: 1rem;
-    background-image: url("../images/25.png");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: #000;
 }
 
 .navbar {
@@ -19,6 +16,12 @@ body {
 
 #logo {
     font-family: 'Unbounded', sans-serif;
+    font-size: 5em;
+    font-weight: 800;
+    background-image: url("../images/pexels-milo-textures-2768398.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1 {
@@ -28,6 +31,7 @@ h1 {
 .tag-line {
     font-family: 'Zeyada', serif;
     margin-left: 1.5rem;
+    color: #aaa;
 }
 
 p {
@@ -59,7 +63,7 @@ p {
 }
 
 .button:hover {
-    color: #444;
+    color: #aaa;
 }
 
 .container {
@@ -85,17 +89,6 @@ p {
     inline-size: 100%;
 }
 
-/* custom scroll bar */
-
-#searchResults::-webkit-scrollbar {
-	height: 12px;
-	background-color: #FFF;
-}
-
-.container::-webkit-scrollbar-thumb {
-	background-color: #444;
-}
-
 #map {
     width: 100%;
 }
@@ -104,6 +97,7 @@ p {
 
 #copyright {
     font-family: 'Zeyada', sans-serif;
+    color: #aaa;
 }
 
 @media only screen and (max-width: 580px) {
