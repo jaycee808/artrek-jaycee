@@ -64,13 +64,9 @@ p {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem;
-
-    /* flex-basis: fit-content;
-    flex-direction: column; */
-    /* flex-direction: row;
-    grid-auto-columns: 36%;
-    overflow-x: scroll; */
+    padding: 0.8rem;
+    margin-left: 0;
+    margin-left: 0;
 }
 
 .card img{
@@ -79,8 +75,8 @@ p {
 }
 
 .card {
-    width: 25rem;
-    border-width: 0.1rem;
+    width: 29rem;
+    border-width: 0.2rem;
 }
 
 .card iframe{
@@ -103,7 +99,20 @@ p {
         justify-content: center;
     }
 
+    #search-form {
+        width: 80vw;
+        padding: 0;
+    }
+
     .card {
-        width: 20rem;
+        width: 18rem;
+    }
+
+    .container {
+        display: flex;
+        flex-basis: fit-content;
+        flex-direction: row;
+        grid-auto-columns: 36%;
+        overflow-x: scroll;
     }
 }
