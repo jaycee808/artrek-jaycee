@@ -6,13 +6,22 @@
 
 body {
     margin: 1rem;
+    background-image: url("../images/25.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .navbar {
     justify-content: space-between;
 }
-.navbar-brand {
+
+#logo {
     font-family: 'Unbounded', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
 }
 
 .tag-line {
@@ -39,7 +48,7 @@ p {
 .container {
     display: flex;
     flex-direction: row;
-    grid-auto-columns:36%;
+    grid-auto-columns: 36%;
     padding: 0.5rem;
     overflow-x: scroll;
 }
@@ -55,7 +64,6 @@ p {
 
 .card {
     width: 25rem;
-    margin: 5rem;
     border-width: 0.1rem;
 }
 
@@ -88,7 +96,11 @@ p {
     font-family: 'Zeyada', sans-serif;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 580px) {
+    .navbar {
+        justify-content: center;
+    }
+
     .card {
         width: 20rem;
     }
