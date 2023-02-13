@@ -14,6 +14,7 @@ body {
 
 .navbar {
     justify-content: space-between;
+    margin-left: 1.5rem;
 }
 
 #logo {
@@ -26,23 +27,39 @@ h1 {
 
 .tag-line {
     font-family: 'Zeyada', serif;
+    margin-left: 1.5rem;
 }
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.button {
+/* .button {
     font-family: 'Unbounded', sans-serif;
-}
+} */
 
 #userInput {
     font-family: 'Zeyada', serif;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 #search-form {
     width: 26rem;
+    padding: 0;
+}
+
+#search-addon {
+    background: transparent;
+}
+
+.button {
+    border-color: transparent;
+    color: dodgerblue;
+    background: transparent;
+}
+
+.button:hover {
+    color: #444;
 }
 
 .container {
@@ -51,10 +68,7 @@ p {
     grid-auto-columns: 36%;
     padding: 0.5rem;
     overflow-x: scroll;
-}
-
-.container-fluid{
-    margin-top: 20px;
+    margin: 0;
 }
 
 .card img{
@@ -74,16 +88,12 @@ p {
 /* custom scroll bar */
 
 #searchResults::-webkit-scrollbar {
-	height: 4px;
-	background-color: #000;
+	height: 12px;
+	background-color: #FFF;
 }
 
-#search-addon {
-    background-color:transparent;
-}
-
-.fas {
-    background-color: transparent;
+.container::-webkit-scrollbar-thumb {
+	background-color: #444;
 }
 
 #map {
