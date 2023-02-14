@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&family=Unbounded:wght@300;400;700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merienda&family=Unbounded:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -24,13 +24,40 @@ h1 {
 }
 
 .tag-line {
-    font-family: 'Zeyada', serif;
+    font-family: 'Courgette', serif;
     color: #aaa;
     text-align: center;
 }
 
 p {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card-title {
+    font-family: 'Courgette', serif;
+}
+
+#map-title {
+    font-family: 'Courgette', serif;
+}
+
+.card {
+    height: 99%;
+    display: flex;
+}
+
+.card-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body {
+    position: relative;
+}
+
+.card-footer {
+    bottom: 0;
+    margin: 0 auto;
 }
 
 /* .button {
@@ -38,8 +65,8 @@ p {
 } */
 
 #userInput {
-    font-family: 'Zeyada', serif;
-    font-size: 24px;
+    font-family: 'Courgette', serif;
+    font-size: 16px;
 }
 
 #search-form {
@@ -90,7 +117,7 @@ p {
 /* Copyright section */
 
 #copyright {
-    font-family: 'Zeyada', sans-serif;
+    font-family: 'Unbounded', sans-serif;
     color: #aaa;
 }
 
