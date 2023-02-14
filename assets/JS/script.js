@@ -77,7 +77,7 @@ function displayCards(itemData) {
                     <p class="card-text">Year: ${item.year}</p>
                     <p class="card-text">Country of Origin: ${item.country}</p>
                     <p class="card-text">${item.description}</p>
-                <div class="card-footer bg-transparent border-success align-self-end">
+                <div class="card-footer bg-transparent border-primary align-self-end">
                     <h3 id="map-title">Map</h3>
                     <iframe id="map" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyADX0Zd0LOToDJv9h85TLZXc8GUliRPzTU&q=${item.provider}">
                 </div>
