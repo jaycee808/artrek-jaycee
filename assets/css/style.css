@@ -60,10 +60,6 @@ p {
     margin: 0 auto;
 }
 
-/* .button {
-    font-family: 'Unbounded', sans-serif;
-} */
-
 #userInput {
     font-family: 'Courgette', serif;
     font-size: 16px;
@@ -92,8 +88,8 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0.8rem;
-    margin-left: 0;
-    margin-left: 0;
+    margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .card img{
@@ -102,7 +98,7 @@ p {
 }
 
 .card {
-    width: 29rem;
+    width: 24rem;
     border-width: 0.2rem;
 }
 
@@ -121,7 +117,7 @@ p {
     color: #aaa;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 1000px) {
     .navbar {
         justify-content: center;
     }
