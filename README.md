@@ -18,8 +18,8 @@ A database of art history - used to provide search results upon user request.
 Used to display the location of an individual artefact.
 
 ## Screenshot
-![screenshot](/assets/images/Screenshot.png)
+![screenshot](/assets/images/artrek-screenshot.png)
 
 
 ## Link
-[ArTrek Website](https://markmos1991.github.io/ArTrek/) 
+[ArTrek Website](https://artrek.netlify.app/) 
